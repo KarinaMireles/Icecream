@@ -1,0 +1,41 @@
+.ad-designer {
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.light-theme {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #222;
+}
+
+.dark-theme {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #222;
+}
+
+.flavor-buttons button,
+.theme-buttons button,
+.font-size button {
+  background-color: #0e3c7e;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.flavor-buttons button:disabled,
+.theme-buttons button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.ad-preview {
+  margin-top: 1rem;
+  border: 1px solid #222;
+  padding: 1rem;
+  font-family: "Caveat", cursive;
+}

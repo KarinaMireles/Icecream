@@ -1,0 +1,30 @@
+.votes {
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-family: "Caveat", cursive;
+  color: #0e3c7e;
+}
+
+.vote-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.vote-item button {
+  background-color: #0e3c7e;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.vote-bar {
+  background-color: #4f2c2c;
+  color: #fff;
+  padding: 0.5rem;
+}
