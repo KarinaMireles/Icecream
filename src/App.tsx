@@ -1,31 +1,19 @@
-import React, { Component } from "react";
+import React from "react";
 import Header from "./Header";
-import AdDesigner from "./AdDesigner";
-import Votes from "./Votes";
+import AdDesigner from "/.public/AdDesigner";
+import Votes from "./src/Votes";
+import "./App.css";
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      selectedFlavor: "Vanilla",
-      isDarkTheme: false,
-      fontSize: 16,
-    };
-  }
-
-  render() {
-    return (
-      <div className="App">
-        <Header />
-        <AdDesigner
-          selectedFlavor={this.state.selectedFlavor}
-          isDarkTheme={this.state.isDarkTheme}
-          fontSize={this.state.fontSize}
-        />
+function App() {
+  return (
+    <div className="app-container">
+      <Header />
+      <div className="content">
+        <AdDesigner />
         <Votes />
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default App;
